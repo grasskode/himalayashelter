@@ -8,33 +8,42 @@ body {
     background-color:#98AFC7;
 }
 
-.main-container {
+.content {
     width:1000px;
     margin-left:auto;
     margin-right:auto;
 }
 
-.header {
-    /*background-color:#FBB917;*/
+.header_bg {
+    min-height:10px;
+    overflow:hidden;
     background-color:#FFFF9A;
-    height:100px;
+}
+
+.header {
+    min-height:10px;
+    overflow:hidden;
     width:100%;
     float:left;
     clear:both;
+    padding:20px 0px 0px 0px;
 }
 
 .navbar {
-    width:950px;
-    height:40px;
+    width:960px;
+    min-height:10px;
+    overflow:hidden;
     margin-left:auto;
     margin-right:auto;
-    margin-top:10px;
+    margin-top:20px;
 }
 
 .navelement {
-    margin:5px 0px 0px 0px;
+    width:190px;
+    margin:5px 0px 5px 0px;
     padding:0px 22px 0px 22px;
     float:left;
+    text-align:center;
 }
 
 .navelement a {
@@ -56,28 +65,80 @@ body {
 }
 
 .title h1{
-    color:#E56717;
+    color:#EE7601;
     font-family: Geneva, Tahoma, Verdana, sans-serif;
 }
 
 .title p{
     color:#E56717;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.main_bg {
+    min-height:10px;
+    overflow:hidden;
+    background-color:#FAF8CC;
 }
 
 .main {
-    background-color:#FAF8CC;
-    background-size:cover;
-    height:500px;
+    min-height:500px;
+    overflow:hidden;
     width:100%;
+    float:left;
+    clear:both;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+}
+
+.footer_bg {
+  min-height:10px;
+  overflow:hidden;
+  background-color:#AF7817;
+}
+
+.footer {
+    min-height:150px;
+    overflow:hidden;
+    width:100%;
+    padding:20px 0px 50px 0px;
     float:left;
     clear:both;
 }
 
-.footer {
-    background-color:#AF7817;
-    height:200px;
-    width:100%;
-    float:left;
-    clear:both;
+.sitemap {
+  float:left;
+  clear:both;
+  left:10%;
+}
+
+.sitemap p {
+  color:#fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+}
+
+.sitemap a {
+  color:#fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  text-decoration:none;
+}
+
+.sitemap a:hover {
+  color:#ffa;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+}
+
+.copyright {
+  float:right;
+  clear:both;
+}
+
+.copyright p {
+  color:#fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
 }
