@@ -1,0 +1,83 @@
+/* CSS reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#98AFC7;
+}
+
+.main-container {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header {
+    /*background-color:#FBB917;*/
+    background-color:#FFFF9A;
+    height:100px;
+    width:100%;
+    float:left;
+    clear:both;
+}
+
+.navbar {
+    width:950px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+
+.navelement {
+    margin:5px 0px 0px 0px;
+    padding:0px 22px 0px 22px;
+    float:left;
+}
+
+.navelement a {
+    color:#E55B3C;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-decoration:none;
+}
+
+.navelement a:hover {
+    color:#F9966B;
+}
+            
+.title {
+    width:950px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.title h1{
+    color:#E56717;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.title p{
+    color:#E56717;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.main {
+    background-color:#FAF8CC;
+    background-size:cover;
+    height:500px;
+    width:100%;
+    float:left;
+    clear:both;
+}
+
+.footer {
+    background-color:#AF7817;
+    height:200px;
+    width:100%;
+    float:left;
+    clear:both;
+}
