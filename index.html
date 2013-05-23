@@ -1,8 +1,9 @@
 <html>
 <head>
-    <link rel=StyleSheet href="simple.css" type="text/css">
+  <link rel=StyleSheet href="simple.css" type="text/css">
+  <script type="text/javascript" src="scripts.js"></script>
 </head>
-<body>
+<body onload="loadComplete()">
     <div class="main-container">
       <!-- HEADER -->
       <div class="header_bg">
@@ -15,6 +16,7 @@
             <div class="navbar">
               <div class="navelement"><a href="index.html">Home</a></div>
               <div class="navelement"><a href="treks.html">Treks</a></div>
+              <!-- <div class="navelement"><a href="rafting.html">Rafting</a></div> -->
               <div class="navelement"><a href="aboutus.html">About Us</a></div>
               <div class="navelement"><a href="contactus.html">Contact Us</a></div>
             </div>
@@ -27,6 +29,20 @@
         <div class="content">
           <div class="main">
             <h1>Welcome to Himalaya Shelter!</h1>
+            <div id="carousel_holder">
+              <div id="carousel">
+                <div><a href="http://www.google.com"><img src="./images/trekking.jpg" alt="Google" /></a></div>
+                <div><a href="http://www.google.com"><img src="./images/rafting.jpg" alt="Google" /></a></div>
+                <div><a href="http://www.google.com"><img src="./images/explore.jpg" alt="Google" /></a></div>
+                <div><a href="http://www.google.com"><img src="./images/fixed.jpg" alt="Google" /></a></div>
+              </div>
+              <div id="carousel_index">
+                <div><img src="./images/trekking_small.jpg" alt="Trekking" onclick="display(0)" /></div>
+                <div><img src="./images/rafting_small.jpg" alt="Rafting" onclick="display(1)" /></div>
+                <div><img src="./images/explore_small.jpg" alt="Explore Western Garhwal" onclick="display(2)" /></div>
+                <div><img src="./images/fixed_small.jpg" alt="Fixed Departures" onclick="display(3)" /></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
