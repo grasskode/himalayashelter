@@ -17,7 +17,8 @@ body {
 .header_bg {
     min-height:10px;
     overflow:hidden;
-    background-color:#FFFF9A;
+    /*background-color:#FFFF9A;*/
+    background-color:#B0E0E6;
 }
 
 .header {
@@ -36,6 +37,7 @@ body {
     margin-left:auto;
     margin-right:auto;
     margin-top:20px;
+    margin-bottom:10px;
 }
 
 .navelement {
@@ -79,7 +81,7 @@ body {
 .main_bg {
     min-height:10px;
     overflow:hidden;
-    background-color:#FAF8CC;
+    background-color:#FFFAFA;
 }
 
 .main {
@@ -129,8 +131,10 @@ body {
   margin-left:auto;
   margin-right:auto;
   border-style:solid;
-  border-color:#B7AB0B;
-  background-color:#B7AB0B;
+  /*border-color:#B7AB0B;
+  background-color:#B7AB0B;*/
+  border-color:#E56717;
+  background-color:#E56717;
   overflow:hidden;
 }
 
