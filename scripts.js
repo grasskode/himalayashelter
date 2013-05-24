@@ -32,13 +32,14 @@ function display(index){
   divs = document.getElementById("carousel_index").getElementsByTagName("div");
   for (var i=0; i < divs.length; i++ ) {
     var div = divs[i];
+    var img = div.getElementsByTagName("img")[0];
     if(i != index){
-      div.style.opacity = "0.6";
-      div.style.filter = "alpha(opacity=60)";
+      img.style.opacity = "0.6";
+      img.style.filter = "alpha(opacity=60)";
     }
     else{
-      div.style.opacity = "1.0";
-      div.style.filter = "alpha(opacity=100)";
+      img.style.opacity = "1.0";
+      img.style.filter = "alpha(opacity=100)";
     }
   }
   

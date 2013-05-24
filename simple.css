@@ -39,7 +39,7 @@ body {
 }
 
 .navelement {
-    width:190px;
+    width:145px;
     margin:5px 0px 5px 0px;
     padding:0px 22px 0px 22px;
     float:left;
@@ -92,14 +92,45 @@ body {
     text-align:center;
 }
 
+#whyus {
+  min-height:10px;
+  overflow:hidden;
+  width:580px;
+  margin:20px 10px 10px 10px;
+  text-align:center;
+  float:left;
+}
+
+#whyus p {
+  color:#D18301;
+  font-family:Gill Sans, sans-serif;
+}
+
+#whyus h3 {
+  color:#D18301;
+  font-family:Oldtown, fantasy;
+  font-weight:bold
+  font-variant:small-caps;
+}
+
+#sidebar {
+  background-color:red;
+  min-height:100px;
+  overflow:hidden;
+  width:380;
+  margin:20px 10px 10px 10px;
+  float:right;
+}
+
 #carousel_holder {
   width:940px;
   height:403px;
+  margin-top:10px;
   margin-left:auto;
   margin-right:auto;
   border-style:solid;
   border-color:#B7AB0B;
-  background-color:#FFF;
+  background-color:#B7AB0B;
   overflow:hidden;
 }
 
@@ -121,13 +152,12 @@ body {
   overflow:hidden;
 }
 
-#carousel_index div {
+.carousel_index_holder {
   width:233px;
   height:80px;
   float:left;
-  margin:1px;
-  opacity:0.6;
-  filter:alpha(opacity=60); /* For IE8 and earlier */
+  margin:3px 1px 0px 1px;
+  background-color:#FFF;
 }
 
 .footer_bg {
